@@ -1,11 +1,11 @@
 {
   "name": "con-database",
-  "main": "database.js",
-  "types": "database.d.ts",
+  "main": "con-database.js",
+  "types": "con-database.d.ts",
   "type": "module",
   "files": [
-    "database.js",
-    "database.d.ts"
+    "con-database.js",
+    "con-database.d.ts"
   ],
   "dependencies": {
     "@minecraft/server": "^1.9.0-beta.1.20.60-preview.23",

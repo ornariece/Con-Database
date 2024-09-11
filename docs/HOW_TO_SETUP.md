@@ -17,7 +17,7 @@ Then download your required files
 - Place database files into your coding folder
 - Import your required classes from database file
     ```js
-    import {JsonDatabase} from "./database"; //import your downloaded file
+    import {JsonDatabase} from "./con-database"; //import your downloaded file
     ```
 Now you can just use, save and load your data
 ```js

@@ -34,7 +34,7 @@ console.log(myDB1 === myDB2); //true the very same instance!
 ### Example
 ```js
 import {world} from "@minecraft/server";
-import {JsonDatabase} from "./con-database.js";
+import {JsonDatabase} from "con-database";
 
 const db = new WorldDatabase("my id");
 
@@ -67,7 +67,7 @@ Each key is unique to its player because key include players id, so database key
 Code
 ```js
 import {world} from "@minecraft/server";
-import { JsonDatabase } from "databases.js";
+import { JsonDatabase } from "con-database";
 
 const stats = new JsonDatabase("playerStats");
 
